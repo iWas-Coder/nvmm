@@ -1,0 +1,11 @@
+# Folders
+*.cache/
+
+# Files
+*.m4
+*.log
+*.status
+install-sh
+missing
+compile
+configure
