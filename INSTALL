@@ -1,13 +1,23 @@
-Instructions to prepare the project when cloned directly the repository:
-------------------------------------------------------------------------
+Cloned repository
+-----------------
+Instructions to prepare the project when cloned directly the repository.
+Two ways:
+
+1. ./bootstrap
+
+OR
+
 1. aclocal
 2. autoheader
 3. autoconf
-4. automake
+4. automake --gnu --add-missing
 
 
-Instructions to build the project (either after performing the previous instructions, or when downloaded a release tarball directly):
--------------------------------------------------------------------------------------------------------------------------------------
+Release Tarball
+---------------
+After preparing the project with the previous instructions, or when
+downloaded directly a release tarball:
+
 1. mkdir build && cd $_
 2. ../configure
 3. make [-j$(nproc)]

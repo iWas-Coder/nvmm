@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# === Help panel === #
+if [ "$1" == "-h" ] || [ "$1" == "--help" ] ; then
+    echo
+fi
+
+# === Clean workflow === #
+if [ "$1" == "clean" ]; then
+    cat .gitignore | grep -v '#' | xargs rm -rf
+fi
+
+# === Normal workflow === #
+aclocal
+autoheader
+autoconf
+automake --gnu --add-missing
