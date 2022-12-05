@@ -1,0 +1,12 @@
+Instructions to prepare the project when cloned directly the repository:
+------------------------------------------------------------------------
+1. aclocal
+2. autoheader
+3. autoconf
+4. automake
+
+
+Instructions to build the project (either after performing the previous instructions, or when downloaded a release tarball directly):
+-------------------------------------------------------------------------------------------------------------------------------------
+1. ./configure
+2. make [-j$(nproc)]
