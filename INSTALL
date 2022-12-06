@@ -19,5 +19,5 @@ After preparing the project with the previous instructions, or when
 downloaded directly a release tarball:
 
 1. mkdir build && cd $_
-2. ../configure
+2. ../configure [--enable-silent-rules]
 3. make [-j$(nproc)]
