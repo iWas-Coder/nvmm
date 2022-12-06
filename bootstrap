@@ -5,7 +5,7 @@ if [ "$1" == "help" ]; then
     echo "Available commands:"
     echo -e "\thelp: show this message and exits."
     echo -e "\tclean: cleans the work tree and exits."
-    echo "If neither of these commands are passed, it will prepare the work tree to begin the build process"
+    echo "If neither of these commands are passed, it will prepare the work tree to begin the build process."
     exit 0
 fi
 
