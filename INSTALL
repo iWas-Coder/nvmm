@@ -3,10 +3,6 @@ Cloned repository
 Instructions to prepare the project when cloned directly the repository.
 Two ways:
 
-1. ./bootstrap
-
-OR
-
 1. aclocal
 2. autoheader
 3. autoconf
