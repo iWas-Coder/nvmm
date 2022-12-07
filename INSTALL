@@ -21,3 +21,10 @@ downloaded directly a release tarball:
 1. mkdir build && cd $_
 2. ../configure [--enable-silent-rules]
 3. make [-j$(nproc)]
+
+
+Clean the project tree
+----------------------
+(...):
+
+1. cat .gitignore | grep -v '#' | xargs rm -rf
